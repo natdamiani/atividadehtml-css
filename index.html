@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Melissa</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul class="menu">
+        <li class="menuLi"><button class="ItensMenu" onclick="alert('Você está sendo direcionado para a página Blog')">Blog</button></li>
+         <li class="menuLi"><img src="melissa-logo-4.png" width="150"></li>
+         <li class="menuLi"><a href="https://www.melissa.com.br/"><button class="ItensMenu">Loja</button></a></li>
+    </ul>
+</nav>
+
+<div id="box">
+    <h1 id="rosa">As 10 Melissas</h1>
+    <h1 id="roxo">mais diferentes já criadas!</h1>
+    <p id="copy">Conheça alguns dos lançamentos mais inusitados<br>da nossa marca em colaboração com diversos<br>designers, marcas e arquitetos famosos.</p><br><br><br>
+
+<div class="container">
+    <div class="imagem">
+        <img id="figura1" src="imagem1-1.svg" width="400"/>
+    </div>
+    <div class="texto">
+        <h2 id="AnimalToeMule">Animal Toe Mule</h2>
+        <p class="paragrafo">Vivienne é uma das parceiras mais antigas e este modelo apresenta uma versão revisitada do sucesso Animal Toe, que reproduz a pata de um felino, agora com a parte de trás aberta e fechamento com fivela.</p>
+        <ul>
+            <li class="lista"><b>Designer:</b> Vivienne Westwood</li><br>
+        </ul>
+        <button class="buttonImagem" onclick="trocarImagem1()">Trocar cor</button>
+    </div>
+</div>
+
+<br><br><br>
+
+<div class="container">
+    <div class="texto">
+        <h2 id="ZahaHadid">Zaha Hadid</h2>
+        <p class="paragrafo">A arquiteta teve a inspiração para o produto em movimentos fluidos que acompanhassem as linhas do corpo, criando contornos mais orgânicos através das tiras vazadas e ares da aerodinâmica.</p>
+        <ul>
+            <li class="lista"><b>Arquiteta:</b> Zaha Hadid</li><br>
+        </ul>
+        <button class="buttonImagem" onclick="trocarImagem2()">Trocar cor</button> &nbsp &nbsp <a href='https://www.youtube.com/watch?v=LTcHMQB5RO0'><button class="buttonVideo">Vídeo</button></a>
+    </div>
+    <div class="imagem">
+        <img id="figura2" src="imagem2-1.svg" width="400"/>
+    </div>
+</div>
+
+<br><br><br>
+
+<div class="container">
+    <div class="imagem">
+        <img id="figura3" src="imagem3-1.svg" width="400"/>
+    </div>
+    <div class="texto">
+        <h2 id="JoyFlower">Joy Flower</h2>
+        <p class="paragrafo">Foi inspirada no momento pandêmico e da necessidade do contato com o exterior enquanto seres humanos. A cocriação resultou em um design único e impactante, para quem deseja se expressar através da moda.</p>
+        <ul>
+            <li class="lista"><b>Designer:</b> Thomas Benjamin</li><br>
+        </ul>
+        <button class="buttonImagem" onclick="trocarImagem3()">Trocar cor</button> &nbsp &nbsp <a href='https://www.instagram.com/p/CWJsyLJM2a3/'><button class="buttonVideo">Vídeo</button></a>
+    </div>
+</div>
+
+<br><br><br>
+
+<div class="container">
+    <div class="texto">
+        <h2 id="Incense">Incense</h2>
+        <p class="paragrafo">É um lançamento de uma coleção cápsula de 4 sapatos da época que o estilista estava na Chanel. Nesse modelo em específico seu lado bem humorado fica presente, no qual o salto do scarpin ganha um formato de sorvete.</p>
+        <ul>
+            <li class="lista"><b>Designer:</b> Karl Lagerfeld</li><br>
+        </ul>
+        <button class="buttonImagem" onclick="trocarImagem4()">Trocar cor</button> &nbsp &nbsp <a href='https://www.youtube.com/watch?v=QtcW18RNNXk'><button class="buttonVideo">Vídeo</button></a>
+    </div>
+    <div class="imagem">
+        <img id="figura4" src="imagem4-1.svg" width="400"/>
+    </div>
+</div>
+
+<br><br><br>
+
+<div class="container">
+    <div class="imagem">
+        <img id="figura5" src="imagem5-1.svg" width="400"/>
+    </div>
+    <div class="texto">
+        <h2 id="Fontessa">Fontessa</h2>
+        <p class="paragrafo">Formado inteiramente por bolhas achatadas e emendadas umas às outras nas extremidades, esse modelo tem a proposta de ser totalmente customizável, sendo somente necessário cortar as bolhas a fim de se chegar a um novo modelo. </p>
+        <ul>
+            <li class="lista"><b>Designer:</b> Gaetano Pesce</li><br>
+        </ul>
+        <button class="buttonImagem" onclick="trocarImagem5()">Trocar cor</button> &nbsp &nbsp <a href='https://www.youtube.com/watch?v=uqKM7mvdyNU'><button class="buttonVideo">Vídeo</button></a>
+    </div>
+</div>
+
+<br><br><br>
+
+<div class="container">
+    <div class="texto">
+        <h2 id="PuffSandal">Puff Sandal</h2>
+        <p class="paragrafo">Em parceria com uma marca de New York que tem em sua essência a sustentabilidade de uma forma inusitada e lúdica, trazendo um modelo papete estilo puffer, com cores vibrantes, glitter e tons metalizados, além de muitas curvas.</p>
+        <ul>
+            <li class="lista"><b>Marca:</b> Collina Strada</li><br>
+        </ul>
+        <button class="buttonImagem" onclick="trocarImagem6()">Trocar cor</button> &nbsp &nbsp <a href='https://www.instagram.com/p/CiazwtqLlQT/'><button class="buttonVideo">Vídeo</button></a>
+    </div>
+    <div class="imagem">
+        <img id="figura6" src="imagem6-1.svg" width="400"/>
+    </div>
+</div>
+
+<br><br><br>
+
+<div class="container">
+    <div class="imagem">
+        <img id="figura7" src="imagem7-1.svg" width="400"/>
+    </div>
+    <div class="texto">
+        <h2 id="RockingHorseWing">Rocking Horse Wing</h2>
+        <p class="paragrafo">Esse modelo representa bem a estética e o universo punk que a estilista gostava de criar. Com esse salto plataforma cortado e tiras largas na frente e calcanhar, o sapato ainda possui um aplique de asas que pode ser removido.</p>
+        <ul>
+            <li class="lista"><b>Designer:</b> Vivienne Westwood</li><br>
+        </ul>
+        <button class="buttonImagem" onclick="trocarImagem7()">Trocar cor</button>
+    </div>
+</div>
+
+<br><br><br>
+
+<div class="container">
+    <div class="texto">
+        <h2 id="CourtShoe">Court Shoe</h2>
+        <p class="paragrafo">Com formas extraordinárias e sempre tentando trazer referências mais históricas, esse novo modelo collab da marca foi inspirado nas miniaturas de vasos rococó, apresentando conforto e elegância.</p>
+        <ul>
+            <li class="lista"><b>Marca:</b> Y.Project</li><br>
+        </ul>
+        <button class="buttonImagem" onclick="trocarImagem8()">Trocar cor</button> &nbsp &nbsp <a href='https://www.instagram.com/p/CP6iDocAmvh/'><button class="buttonVideo">Vídeo</button></a>
+    </div>
+    <div class="imagem">
+        <img id="figura8" src="imagem8-1.svg" width="400"/>
+    </div>
+</div>
+
+<br><br><br>
+
+<div class="container">
+    <div class="imagem">
+        <img id="figura9" src="imagem9-1.svg" width="400"/>
+    </div>
+    <div class="texto">
+        <h2 id="BlackTie">Black Tie</h2>
+        <p class="paragrafo">Outra parceria do estilista com a marca, desta vez um é um modelo mais moderno, que lembra os famosos cut out shoes, e faz referência ao seu look clássico, a camisa com gravata e terno.</p>
+        <ul>
+            <li class="lista"><b>Designer:</b> Karl Lagerfeld</li><br>
+        </ul>
+        <button class="buttonImagem" onclick="trocarImagem9()">Trocar cor</button>
+    </div>
+</div>
+
+<br><br><br>
+
+<div class="container">
+    <div class="texto">
+        <h2 id="PunkLovePump">Punk Love Pump</h2>
+        <p class="paragrafo">Nesse modelo a ousadia, talento, irreverência e bom humor do estilista estão bastante presentes. Com estética bold e punk, traz um salto grosso e ousado, com detalhes de tiras de spikes metálicos.</p>
+        <ul>
+            <li class="lista"><b>Designer:</b> Jean Paul Gaultier</li><br>
+        </ul>
+        <button class="buttonImagem" onclick="trocarImagem10()">Trocar cor</button> &nbsp &nbsp <a href='https://www.instagram.com/p/CsQ7JexPN3g/'><button class="buttonVideo">Vídeo</button></a>
+    </div>
+    <div class="imagem">
+        <img id="figura10" src="imagem10-1.svg" width="400"/>
+    </div>
+</div>
+</div>
+
+<h3>Você também pode gostar:</h3>
+<div id="divTabela">
+<table id="table">
+    <tr>
+        <td><img id="outrosImagens1" src="melissa + o boticário.png"></td>
+        <td><img id="outrosImagens2" src="modelos aranhados.png"></td>
+        <td><img id="outrosImagens3" src="benefícios.png"></td>
+    </tr>
+    <tr>
+        <td class="outrosTextos">Melissa + O Boticário</td>
+        <td class="outrosTextos">Modelos Aranhados</td>
+        <td class="outrosTextos">Benefícios</td>
+    </tr>
+</table>
+</div>
+
+<div id="newsletter">
+    <div>
+    <h4>Assine a newsletter do Portal Melissa!</h4>
+    <p class="paragrafo">Ama promos e produtos novos? Vem receber tudo em 1ª mão e ficar por dentro dos lançamentos da marca!</p>
+    </div>
+    <div id="divCadastro">
+        <input class="cadastro" type="text" name="nome" placeholder="Nome">
+        <input class="cadastro" type="email" name="e-mail" placeholder="E-mail">
+        <button id="buttonCadastrar">Cadastrar</button></a>
+    </div>
+</div>
+
+<footer id="footer">
+    <h6>copyright © 2023 Melissa</h6>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,422 @@
+body {
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(211,175,255,1) 30%, rgba(255,194,227,1) 50%, rgba(255,242,157,1) 70%, rgba(255,255,255,0) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+#box{
+    margin: 20px 70px 10px 70px;
+    padding: 50px 180px 60px 180px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 10px 3px 3px 3px;
+    background-color: #FFFFFF;
+    margin-bottom:80px;
+}
+
+nav {
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.ItensMenu{
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    margin: 25px;
+    color: #000000;
+    padding: 0px;
+    background-color: #FFFFFF;
+    border: 0px;
+}
+
+.ItensMenu:hover {
+    color: #FF57B7;
+    cursor: pointer;
+}
+
+.menuLi {
+    display: inline-block;
+    margin: 25px;
+}
+
+#rosa {
+    text-align: center;
+    color: #FF57B7;
+    font-size: 55px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    line-height: 10px;
+}
+
+#roxo {
+    text-align: center;
+    color: #B047D8;
+    font-size: 35px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    line-height: 20px;
+}
+
+#copy {
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.paragrafo{
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.lista{
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    line-height: 20px
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 80px;
+}
+
+.buttonImagem {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: 2px solid #000000; 
+    padding: 5px 20px;
+    background-color: #000000;
+    text-align: center;
+}
+
+.buttonImagem:hover {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    color: #000000;
+    cursor: pointer;
+}
+
+.buttonVideo{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: 2px solid #000000; 
+    padding: 5px 20px;
+    background-color: #000000;
+    text-align: center;
+}
+
+.buttonVideo:hover {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    color: #000000;
+    cursor: pointer;
+}
+
+#AnimalToeMule {
+    color: #0067C6;
+    text-align: center;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 8px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    line-height: 26px; 
+}
+
+#ZahaHadid{
+    color: #B047D8;
+    text-align: center;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 8px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    line-height: 26px; 
+}
+
+#JoyFlower{
+    color: #72B450;
+    text-align: center;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 8px;
+    margin-left: 185px;
+    margin-right: 185px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    line-height: 26px; 
+}
+
+#Incense{
+    color: #DC4D85;
+    text-align: center;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 8px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    line-height: 26px;
+}
+
+#Fontessa{
+    color: #B00B05;
+    text-align: center;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 8px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    line-height: 26px; 
+}
+
+#PuffSandal {
+    color: #0067C6;
+    text-align: center;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 8px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    line-height: 26px; 
+}
+
+#RockingHorseWing{
+    color: #B047D8;
+    text-align: center;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 8px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    line-height: 26px; 
+}
+
+#CourtShoe{
+    color: #72B450;
+    text-align: center;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 8px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    line-height: 26px; 
+}
+
+#BlackTie{
+    color: #DC4D85;
+    text-align: center;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 8px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    line-height: 26px; 
+}
+
+#PunkLovePump{
+    color: #B00B05;
+    text-align: center;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 8px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    line-height: 26px; 
+}
+
+h3{
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+#table{
+    text-align: center;
+    border-spacing: 20px;
+}
+
+#outrosImagens1{
+    border: 2px #000000 solid; 
+}
+
+#outrosImagens1:hover{
+    border: 2px #000000 solid; 
+    cursor: pointer;
+    content: url("melissa\ +\ o\ boticário\ hover.png");
+}
+
+#outrosImagens2{
+    border: 2px #000000 solid; 
+}
+
+#outrosImagens2:hover{
+    border: 2px #000000 solid; 
+    cursor: pointer;
+    content: url("modelos\ aranhados\ hover.png");
+}
+
+#outrosImagens3{
+    border: 2px #000000 solid; 
+}
+
+#outrosImagens3:hover{
+    border: 2px #000000 solid; 
+    cursor: pointer;
+    content: url("benefícios\ hover.png");
+}
+.outrosTextos{
+    padding: 5px;
+    text-align: center;
+    font-size: 24pxx;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    color: #000000;
+}
+
+#divTabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 80px 0px;
+}
+
+#newsletter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 80px;
+    padding-bottom: 80px;
+    margin-left: 188px;
+    margin-right: 180px;
+}
+
+#divCadastro{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+h4{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #000000;
+    margin: 0px;
+}
+
+.cadastro{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    border: 2px solid #000000; 
+    padding: 5px 20px;
+    background-color: #FFFFFF;
+    text-align: left;
+    margin: 6px;
+    cursor: pointer;
+}
+
+#buttonCadastrar{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+        color: #FFFFFF;
+        border: 2px solid #000000; 
+        padding: 5px 20px;
+        margin-left: 230px;
+        margin-right: 230px;
+        margin-top: 10px;
+        background-color: #000000;
+        text-align: center;
+}
+    
+#buttonCadastrar:hover {
+        background-color: #FFFFFF;
+        border: 2px solid #000000;
+        color: #000000;
+        cursor: pointer;
+}
+    
+
+h6{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+#footer{
+    background-color: #000000;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    width: auto;
+}
