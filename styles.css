@@ -4,14 +4,14 @@ body {
     padding: 0;
 }
 
-#box{
-    margin: 20px 70px 10px 70px;
-    padding: 50px 180px 60px 180px;
+#box-fundo{
+    margin: 24px 72px 8px 72px;
+    padding: 72px 180px 48px 180px;
     border-color: #000000;
     border-style: solid;
     border-width: 10px 3px 3px 3px;
     background-color: #FFFFFF;
-    margin-bottom:80px;
+    margin-bottom: 80px;
 }
 
 nav {
@@ -23,46 +23,58 @@ nav {
     padding: 0px;
 }
 
-.ItensMenu{
+.menu-itens {
     font-size: 20px;
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
-    margin: 25px;
+    margin: 24px;
     color: #000000;
     padding: 0px;
     background-color: #FFFFFF;
     border: 0px;
 }
 
-.ItensMenu:hover {
+.menu-itens:hover {
     color: #FF57B7;
     cursor: pointer;
 }
 
-.menuLi {
+.menu-lista {
     display: inline-block;
-    margin: 25px;
+    margin: 24px;
 }
 
-#rosa {
+#div-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+#titulo-rosa {
     text-align: center;
     color: #FF57B7;
     font-size: 55px;
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
-    line-height: 10px;
+    line-height: 55px;
+    margin: 4px;
 }
 
-#roxo {
+#titulo-roxo {
     text-align: center;
     color: #B047D8;
     font-size: 35px;
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
-    line-height: 20px;
+    line-height: 35px;
+    margin: 8px;
 }
 
-#copy {
+#titulo-copy {
     text-align: center;
     color: #000000;
     font-size: 18px;
@@ -87,14 +99,15 @@ nav {
     line-height: 20px
 }
 
-.container {
+.div-post {
     display: flex;
     flex-direction: row;
     justify-content: center;
     column-gap: 80px;
+    margin-bottom: 72px;
 }
 
-.buttonImagem {
+.botao-trocar-cor {
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
     font-size: 14px;
@@ -105,14 +118,14 @@ nav {
     text-align: center;
 }
 
-.buttonImagem:hover {
+.botao-trocar-cor:hover {
     background-color: #FFFFFF;
     border: 2px solid #000000;
     color: #000000;
     cursor: pointer;
 }
 
-.buttonVideo{
+.botao-video {
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
     font-size: 14px;
@@ -121,16 +134,17 @@ nav {
     padding: 5px 20px;
     background-color: #000000;
     text-align: center;
+    margin-left: 16px;
 }
 
-.buttonVideo:hover {
+.botao-video:hover {
     background-color: #FFFFFF;
     border: 2px solid #000000;
     color: #000000;
     cursor: pointer;
 }
 
-#AnimalToeMule {
+#animal-toe-mule {
     color: #0067C6;
     text-align: center;
     border-width: 2px;
@@ -146,7 +160,7 @@ nav {
     line-height: 26px; 
 }
 
-#ZahaHadid{
+#zaha-hadid {
     color: #B047D8;
     text-align: center;
     border-width: 2px;
@@ -162,7 +176,7 @@ nav {
     line-height: 26px; 
 }
 
-#JoyFlower{
+#joy-flower {
     color: #72B450;
     text-align: center;
     border-width: 2px;
@@ -178,7 +192,7 @@ nav {
     line-height: 26px; 
 }
 
-#Incense{
+#incense {
     color: #DC4D85;
     text-align: center;
     border-width: 2px;
@@ -194,7 +208,7 @@ nav {
     line-height: 26px;
 }
 
-#Fontessa{
+#fontessa {
     color: #B00B05;
     text-align: center;
     border-width: 2px;
@@ -210,7 +224,7 @@ nav {
     line-height: 26px; 
 }
 
-#PuffSandal {
+#puff-sandal {
     color: #0067C6;
     text-align: center;
     border-width: 2px;
@@ -226,7 +240,7 @@ nav {
     line-height: 26px; 
 }
 
-#RockingHorseWing{
+#rocking-horse-wing {
     color: #B047D8;
     text-align: center;
     border-width: 2px;
@@ -242,7 +256,7 @@ nav {
     line-height: 26px; 
 }
 
-#CourtShoe{
+#court-shoe {
     color: #72B450;
     text-align: center;
     border-width: 2px;
@@ -258,7 +272,7 @@ nav {
     line-height: 26px; 
 }
 
-#BlackTie{
+#black-tie {
     color: #DC4D85;
     text-align: center;
     border-width: 2px;
@@ -274,7 +288,7 @@ nav {
     line-height: 26px; 
 }
 
-#PunkLovePump{
+#punk-love-pump {
     color: #B00B05;
     text-align: center;
     border-width: 2px;
@@ -290,7 +304,7 @@ nav {
     line-height: 26px; 
 }
 
-h3{
+h3 {
     text-align: center;
     color: #000000;
     font-size: 30px;
@@ -298,41 +312,48 @@ h3{
     font-weight: 800;
 }
 
-#table{
+#div-tabela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 80px 0px;
+}
+
+#tabela {
     text-align: center;
     border-spacing: 20px;
 }
 
-#outrosImagens1{
+#outros-imagens1 {
     border: 2px #000000 solid; 
 }
 
-#outrosImagens1:hover{
+#outros-imagens1:hover {
     border: 2px #000000 solid; 
     cursor: pointer;
     content: url("melissa\ +\ o\ boticário\ hover.png");
 }
 
-#outrosImagens2{
+#outros-imagens2 {
     border: 2px #000000 solid; 
 }
 
-#outrosImagens2:hover{
+#outros-imagens2:hover {
     border: 2px #000000 solid; 
     cursor: pointer;
     content: url("modelos\ aranhados\ hover.png");
 }
 
-#outrosImagens3{
+#outros-imagens3 {
     border: 2px #000000 solid; 
 }
 
-#outrosImagens3:hover{
+#outros-imagens3:hover {
     border: 2px #000000 solid; 
     cursor: pointer;
     content: url("benefícios\ hover.png");
 }
-.outrosTextos{
+.outros-textos {
     padding: 5px;
     text-align: center;
     font-size: 24pxx;
@@ -341,14 +362,7 @@ h3{
     color: #000000;
 }
 
-#divTabela{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 80px 0px;
-}
-
-#newsletter{
+#newsletter {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -358,13 +372,13 @@ h3{
     margin-right: 180px;
 }
 
-#divCadastro{
+#div-botoes-cadastro {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
 }
 
-h4{
+h4 {
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
     font-size: 24px;
@@ -372,7 +386,7 @@ h4{
     margin: 0px;
 }
 
-.cadastro{
+.cadastro {
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -385,7 +399,7 @@ h4{
     cursor: pointer;
 }
 
-#buttonCadastrar{
+#botao-cadastrar {
         font-family: 'Manrope', sans-serif;
         font-weight: 800;
         font-size: 14px;
@@ -399,7 +413,7 @@ h4{
         text-align: center;
 }
     
-#buttonCadastrar:hover {
+#botao-cadastrar:hover {
         background-color: #FFFFFF;
         border: 2px solid #000000;
         color: #000000;
@@ -407,14 +421,14 @@ h4{
 }
     
 
-h6{
+h6 {
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 10px;
     color: #FFFFFF;
 }
 
-#footer{
+#footer {
     background-color: #000000;
     padding: 5px 0px 5px 0px;
     text-align: center;
